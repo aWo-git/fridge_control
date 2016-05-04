@@ -20,4 +20,12 @@ Both nohup commands are used to run the scripts in the background. See man page 
 
 Congratulations your done with a rudimentary control of your fridge, happy brewing ;)
 
+If you are looking for something more comprehensive check out "http://www.brewpi.com" 
+
 aWo @ 04.05.2016
+
+Things I'd like to improve when I have time:
+- change the round-robin database to something longer-lasting
+- add the possibilty to define time-temperature curves for the control. Currently I do this manually
+- create a nice way to plot the temperatures and define the time vs temperature curve (no web frontend, native mac app or matlab app)
+- look into the possibility to use this setup also for mash control with my brewing system.
