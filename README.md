@@ -1,5 +1,5 @@
 # fridge_control
-Rudimentary temperature Control and Data Log of a fridge using a Raspberry Pi, 1-Wire Temperature Sensor and normal relay
+Rudimentary temperature Control and Data Log of a fridge using a Raspberry Pi, 1-Wire Temperature Sensor and normal relay.
 These rudimentary control is used for controlling the temperature of a fridge to be able to brew beer with bottom-fermenting yeast like pilsener.  
 
 The file gettemp.py is copied from "https://www.kompf.de/weather/pionewiremini.html" and a little bit adapted to my needs. The setup of the raspberry pi and how to connect the 1-Wire Temperature Sensor can also be seen there. 
