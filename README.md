@@ -14,7 +14,7 @@ The file fridge_control.py contains a very basic control of a fridge by turning 
 
 To use these files you need to setup the raspberry pi, temperature sensor and relay according to the afore mentioned webpages. 
 Copy the files to a directory of your choice and make them executable. 
-Start the gettemp.sh in the background with the command: "nohup ./gettemp.py >/dev/null 2>&1 &" to get the temperature reading and datalogging. 
+Start the gettemp.sh in the background with the command: "nohup ./gettemp.sh >/dev/null 2>&1 &" to get the temperature reading and datalogging. 
 Start the fridge_control.py with the command: "nohup ./fridge_control.py >/dev/null 2>&1 &" to start the control of the fridge
 Both nohup commands are used to run the scripts in the background. See man page for more information. 
 
